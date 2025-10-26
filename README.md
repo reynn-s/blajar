@@ -50,9 +50,9 @@ penyerang mengirim spoofed dns ke ip korban
 ## Teknik Firewall Evasion 
 Fragmentation, tunneling, enkripsi/ssl, port hopping, portocol obfuscation, permitted protocols.
 ## List Scan pada Nmap
-```-sL``` (Passive) mengirim FIN packets untuk menemukan port terbuka
+```-sL``` (Passive) hanya list target tidak ada packet yang terkirim
 ## Nmap FIN Scan 
-```-sF``` (Active Attack) hanya list target tidak ada packet yang terkirim
+```-sF``` (Active Attack) mengirim FIN packets untuk menemukan port terbuka
 ## Cyber Kill Chain, fase Weaponization  
 penyerang membuat payload(malware, exploit) untuk target. seperti memasukan payload ke dokumen
 ## fase Reconnaissance 
