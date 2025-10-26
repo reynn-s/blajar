@@ -50,7 +50,7 @@ penyerang mengirim spoofed dns ke ip korban
 ## Teknik Firewall Evasion 
 Fragmentation, tunneling, enkripsi/ssl, port hopping, portocol obfuscation, permitted protocols.
 ## List Scan pada Nmap
-```-sL``` (Passive Attack) mengirim FIN packets untuk menemukan port terbuka
+```-sL``` (Passive) mengirim FIN packets untuk menemukan port terbuka
 ## Nmap FIN Scan 
 ```-sF``` (Active Attack) hanya list target tidak ada packet yang terkirim
 ## Cyber Kill Chain, fase Weaponization  
@@ -81,7 +81,7 @@ WHOIS, passive DNS, Google dorks, Shodan, p0f, archive.org, public registries, s
 - passive DNS: untuk menemukan host sebelumnya
 - Google Dorks: menemuka panel yang ter-ekspos, file konfigurasi, kredensial, atau dokumen sensitif
 - shodan: search engine untuk internet-exposed devices dan services contoh(port:9200 country:"ID"
-- p0f: tool untuk menemukan OS dan informasi dengan analisa trafik TCP/IP fingerprinting)
+- p0f: tool untuk menemukan OS dan informasi dengan analisa trafik TCP/IP (fingerprinting)
 - archive.org: web archive yang menyimpan snapshot histori sebuah website dan beberapa public files
 - public registries: official public databases - meng verifikasi sertifikat SSL
 - Social Media: mencari informasi
